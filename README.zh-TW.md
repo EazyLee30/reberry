@@ -17,6 +17,10 @@
 
 [閱讀雜誌版博客 →](https://eazylee.xyz/reberry/zh-TW/) · [完整操作記錄](docs/windows-field-notes.md) · [複用 skill](skills/blackberry-bb10-recovery/SKILL.md) · [Mac 實測：SSH、BerryCore、Term49](docs/mac-field-notes.md) · [Mac 接棒](docs/mac-handoff.md)
 
+## v3 資源來源
+
+本次使用者從 [BerryLife 的 Pre-rooted Autoloaders v3 頁面](https://bberrylife.github.io/Pages/V3root.html) 取得 v3 工具與刷機資源。該頁提供 v3 工具、原廠 ROM 的入口，並註明原作者 Oleksandr。請透過來源頁面取得資源，本倉庫不託管韌體。
+
 ## 本次走通的路徑
 
 ```text

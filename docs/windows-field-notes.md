@@ -2,6 +2,8 @@
 
 记录日期：2026-10-11。设备：BlackBerry Classic / Q20。宿主：Windows + PowerShell。全部命令中的路径、地址与账户密钥均使用示例。读者需要自己发现设备地址、脚本版本和应用目录。
 
+资源来源：使用者从 [BerryLife 的 v3 指南](https://bberrylife.github.io/Pages/V3root.html) 获取工具与刷机资源；该页提供 v3 工具和原厂 ROM 入口，并注明 Oleksandr 的原始项目。
+
 ## 01 / 先把底座刷对
 
 原先状态是 v3 root 后 SSH 不稳定、Android 应用停在加载页。设备拥有者授权清空、不备份。本次使用适配 Classic 的 Z30 STA100 系列 **10.3.3.3216** 原厂 autoloader，再使用同一份文件生成 v3 镜像。这个包名是本次所用来源，不应单凭文件名判断未知下载安全或硬件兼容。

@@ -17,6 +17,10 @@ Field notes from restoring one BlackBerry Classic / Q20: a clean firmware baseli
 
 [Read the journal →](https://eazylee.xyz/reberry/) · [Windows walkthrough (Chinese)](docs/windows-field-notes.md) · [Reusable skill](skills/blackberry-bb10-recovery/SKILL.md) · [Mac field notes (Chinese)](docs/mac-field-notes.md) · [Mac handoff](docs/mac-handoff.md)
 
+## v3 resources
+
+The owner obtained the v3 tools and firmware resources through [BerryLife’s Pre-rooted Autoloaders v3 guide](https://bberrylife.github.io/Pages/V3root.html). That page links to the v3 tools and stock ROM resources, and credits original author Oleksandr. Follow its source links rather than downloading firmware from this repository.
+
 ## The path completed in this session
 
 ```text
