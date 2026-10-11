@@ -15,7 +15,7 @@
 
 一臺 BlackBerry Classic / Q20 的恢復手記：從乾淨刷機，到 root、SSH，再到 Android 設置終於越過進度條。這裏留下 Windows 與 Mac 上實際做過的操作、失敗的線索與可交給下一位 agent 的經驗。
 
-[閱讀雜誌版博客 →](https://eazylee.xyz/reberry/zh-TW/) · [完整操作記錄](docs/windows-field-notes.md) · [複用 skill](skills/blackberry-bb10-recovery/SKILL.md) · [Mac 實測：SSH、BerryCore、Term49](docs/mac-field-notes.md) · [Mac 接棒](docs/mac-handoff.md)
+[閱讀雜誌版博客 →](https://eazylee.xyz/reberry/zh-TW/) · [恢復全流程：刷機 → SSH → Android → BerryCore → Term49](docs/recovery-flow.md) · [複用 skill](skills/blackberry-bb10-recovery/SKILL.md)
 
 ## v3 資源來源
 
@@ -33,6 +33,9 @@
   → Android 配置權限修復
   → upd 身份提交 PPS 安裝任務
   → 確認 success 後清理傳入的 BAR
+  → Mac 接入與 BerryCore 安裝、檔案信任
+  → Term49 自動載入與 SSH 短命令
+  → 重啟信任恢復與待驗證事項
 ```
 
 | 檢查項 | 本次證據 |
@@ -62,19 +65,15 @@
 完成後記錄實際結果與未解決問題；如果是 Mac，只記錄真正執行過的 Mac 操作，不照搬 Windows 成功結論。
 ```
 
-博客語言：[English](https://eazylee.xyz/reberry/) · [簡體中文](https://eazylee.xyz/reberry/zh-TW/) · [繁體中文](https://eazylee.xyz/reberry/zh-TW/)。
+博客語言：[English](https://eazylee.xyz/reberry/) · [簡體中文](https://eazylee.xyz/reberry/zh-CN/) · [繁體中文](https://eazylee.xyz/reberry/zh-TW/)。
 
 把倉庫中的 `skills/blackberry-bb10-recovery` 文件夾複製到你所用 agent 的技能目錄即可；Codex 通常使用 `~/.codex/skills/`。也可以直接讓 agent 閱讀文件，無須安裝。
 
 ## 閱讀順序
 
-- [Mac：SSH、BerryCore、Term49 實測](docs/mac-field-notes.md)
-- [分享预览与响应式布局](docs/site-sharing.md)
+從 [恢復全流程](docs/recovery-flow.md) 連續讀下去：刷機與 root → SSH → Android Runtime → 應用安裝 → BerryCore → Term49 → 重啟驗證 → 真機照片與 BerryBrowser CJK。命令、失敗原因和當前驗證結果在同一份文件中維護。
 
-- [Windows 實戰：刷寫、SSH、Runtime、PPS](docs/windows-field-notes.md)
-- [密碼 SSH 的舊系統兼容分支](skills/blackberry-bb10-recovery/references/password-ssh.md)
-- [Mac 後續貢獻說明與複製 prompt](docs/mac-handoff.md)
-- [致謝與資料來源](docs/credits.md)
+需要複用時再讀 [skill](skills/blackberry-bb10-recovery/SKILL.md)；密碼認證的細節見 [SSH 相容性參考](skills/blackberry-bb10-recovery/references/password-ssh.md)。[致謝與資料來源](docs/credits.md) 保留上游貢獻。
 
 ## 隱私與邊界
 

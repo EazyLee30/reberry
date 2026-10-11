@@ -15,7 +15,7 @@
 
 一台 BlackBerry Classic / Q20 的恢复手记：从干净刷机，到 root、SSH，再到 Android 设置终于越过进度条。这里留下 Windows 与 Mac 上实际做过的操作、失败的线索与可交给下一位 agent 的经验。
 
-[阅读杂志版博客 →](https://eazylee.xyz/reberry/zh-CN/) · [完整操作记录](docs/windows-field-notes.md) · [复用 skill](skills/blackberry-bb10-recovery/SKILL.md) · [Mac 实测：SSH、BerryCore、Term49](docs/mac-field-notes.md) · [Mac 接棒](docs/mac-handoff.md)
+[阅读杂志版博客 →](https://eazylee.xyz/reberry/zh-CN/) · [恢复全流程：刷机 → SSH → Android → BerryCore → Term49](docs/recovery-flow.md) · [复用 skill](skills/blackberry-bb10-recovery/SKILL.md)
 
 ## v3 资源来源
 
@@ -33,6 +33,9 @@
   → Android 配置权限修复
   → upd 身份提交 PPS 安装任务
   → 确认 success 后清理传入的 BAR
+  → Mac 接入与 BerryCore 安装、文件信任
+  → Term49 自动加载与 SSH 短命令
+  → 重启信任恢复与待验证事项
 ```
 
 | 检查项 | 本次证据 |
@@ -68,13 +71,9 @@
 
 ## 阅读顺序
 
-- [Mac：SSH、BerryCore、Term49 实测](docs/mac-field-notes.md)
-- [分享预览与响应式布局](docs/site-sharing.md)
+从 [恢复全流程](docs/recovery-flow.md) 连续读下去：刷机与 root → SSH → Android Runtime → 应用安装 → BerryCore → Term49 → 重启验证 → 真机照片与 BerryBrowser CJK。命令、失败原因和当前验证结果在同一份文档中维护。
 
-- [Windows 实战：刷写、SSH、Runtime、PPS](docs/windows-field-notes.md)
-- [密码 SSH 的旧系统兼容分支](skills/blackberry-bb10-recovery/references/password-ssh.md)
-- [Mac 后续贡献说明与复制 prompt](docs/mac-handoff.md)
-- [致谢与资料来源](docs/credits.md)
+需要复用时再读 [skill](skills/blackberry-bb10-recovery/SKILL.md)；密码认证的细节见 [SSH 兼容参考](skills/blackberry-bb10-recovery/references/password-ssh.md)。[致谢与资料来源](docs/credits.md) 保留上游贡献。
 
 ## 隐私与边界
 

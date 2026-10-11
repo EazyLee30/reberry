@@ -15,7 +15,7 @@
 
 Field notes from restoring one BlackBerry Classic / Q20: a clean firmware baseline, root, independent SSH, and an Android Settings app that finally passed its loading screen. Practical observations from Windows, with a reusable agent skill and actual Mac SSH and BerryCore observations.
 
-[Read the journal →](https://eazylee.xyz/reberry/) · [Windows walkthrough (Chinese)](docs/windows-field-notes.md) · [Reusable skill](skills/blackberry-bb10-recovery/SKILL.md) · [Mac field notes (Chinese)](docs/mac-field-notes.md) · [Mac handoff](docs/mac-handoff.md)
+[Read the journal →](https://eazylee.xyz/reberry/) · [Full recovery flow (Chinese)](docs/recovery-flow.md) · [Reusable skill](skills/blackberry-bb10-recovery/SKILL.md)
 
 ## v3 resources
 
@@ -33,6 +33,9 @@ Matching Stock 10.3.3.3216
   → Android configuration permissions repaired
   → BAR installation through PPS as upd
   → Known uploaded installers removed after success
+  → Mac connection, BerryCore installation and file trust
+  → Term49 startup and short SSH commands
+  → Reboot trust recovery and outstanding verification
 ```
 
 | Check | Evidence from this device |
@@ -63,18 +66,17 @@ Use my own newly generated SSH key. Keep credentials local; never publish passwo
 private keys, device identifiers, personal addresses or unsanitized logs.
 Distinguish listening ports, authentication, root access, Android services,
 installer success and actual application execution. Record unresolved issues.
-For Mac work, read docs/mac-handoff.md and document only operations actually performed;
+For Mac work, read docs/recovery-flow.md#next-checks and document only operations actually performed;
 do not infer Apple Silicon flashing compatibility from a Windows success.
 ```
 
 Copy `skills/blackberry-bb10-recovery` into your agent's skill directory (typically `~/.codex/skills/` for Codex), or ask the agent to read it directly. The installed skill uses repository links for its detailed walkthrough.
 
-## Reading list
+## Read the complete record
 
-- [Windows: flashing, SSH, Runtime and PPS (Chinese)](docs/windows-field-notes.md)
-- [Legacy password SSH branch (English)](skills/blackberry-bb10-recovery/references/password-ssh.md)
-- [Mac contribution handoff and prompt (Chinese)](docs/mac-handoff.md)
-- [Credits and sources](docs/credits.md)
+Start with the [full recovery flow](docs/recovery-flow.md): firmware and root → SSH → Android Runtime → app installation → BerryCore → Term49 → reboot checks → device photos and BerryBrowser CJK. Commands, failures and current verification status are maintained together in one document.
+
+The [reusable skill](skills/blackberry-bb10-recovery/SKILL.md) and [password SSH reference](skills/blackberry-bb10-recovery/references/password-ssh.md) support this record. [Credits and sources](docs/credits.md) preserve the upstream attribution.
 
 The journal is available in [English](https://eazylee.xyz/reberry/), [简体中文](https://eazylee.xyz/reberry/zh-CN/) and [繁體中文](https://eazylee.xyz/reberry/zh-TW/). Technical source notes retain their stated language; an agent can translate them as needed.
 

@@ -9,11 +9,11 @@ Use this skill for BB10 / QNX restoration, SSH and Runtime repair. Discover the 
 
 ## Route by symptom
 
-- Flash/root: read [Windows field notes](https://github.com/EazyLee30/reberry/blob/main/docs/windows-field-notes.md), sections 01–02. Match stock to root build source. v3 userfs is not a full stock image. Respect exact downloaded script behavior and required stock → root → radio sequence for this version.
+- Flash/root: read [complete recovery flow](https://github.com/EazyLee30/reberry/blob/main/docs/recovery-flow.md#stage-01), sections 01–02. Match stock to root build source. v3 userfs is not a full stock image. Respect exact downloaded script behavior and required stock → root → radio sequence for this version.
 - SSH authentication: distinguish port listening, key authentication and password verification. For the legacy password branch read [password-ssh.md](references/password-ssh.md).
 - Android stuck on progress: inspect `pidin ar`, `slog2info`, file modes and initialization queue; read section 04. Do not infer service health from UI progress alone.
 - BAR installation: read sections 05–06. Use upd role for PPS; await success before deleting only known uploaded staging files.
-- Mac: read [handoff](https://github.com/EazyLee30/reberry/blob/main/docs/mac-handoff.md); derive commands from the actual platform tools. Do not claim Windows executable compatibility or an unperformed flash.
+- Mac: read [Mac stages and outstanding checks](https://github.com/EazyLee30/reberry/blob/main/docs/recovery-flow.md#stage-07); derive commands from the actual platform tools. Do not claim Windows executable compatibility or an unperformed flash.
 
 ## Non-obvious invariants from the observed device
 
