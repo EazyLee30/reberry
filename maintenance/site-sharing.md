@@ -27,3 +27,8 @@
 - `share-square-v2.png`：600 × 600 方形字标，作为 Open Graph 与 image_src 图片，适应微信方形缩略图；X 继续使用横版封面。
 - 封面使用显式等比例样式，样式表带版本参数，避免旧缓存造成移动端拉伸。
 - `photos/`：使用者提供并要求公开的三张真机照片，保留原始比例；页面不把游戏画面当作性能验证。
+
+
+## GitHub 链接标识
+
+`site/icons/github-invertocat.svg` 使用 [GitHub 官方品牌素材](https://brand.github.com/foundations/logo) 的 `GitHub_Invertocat_Black.svg`，来自官方 `GitHub_Logos.zip`，未修改图形与颜色。图标用于指向 github.com 的链接；GitHub Pages 上的 BerryLife 网站不加仓库标识。装饰性图标留空 alt，链接保留可读标题。GitHub 标志属于 GitHub，不适用本站原创内容的 CC BY 许可。
