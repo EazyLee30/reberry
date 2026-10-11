@@ -1,0 +1,12 @@
+*.bar
+*.apk
+*.exe
+*.zip
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*.log
+.env*
+private/
+device-dumps/
