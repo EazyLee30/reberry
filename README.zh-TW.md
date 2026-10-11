@@ -78,7 +78,7 @@
 
 ## 隱私與邊界
 
-倉庫僅包含重新撰寫的文字、原創 SVG/PNG 和靜態網頁。固件、遊戲、BAR/APK、SSH 私鑰、設備截圖、完整日誌和賬戶文件均未上傳。示例地址和路徑是佔位符。這裏是單臺設備的現場記錄，不承諾所有固件或舊應用均可運行。復刷會清空數據，應由設備擁有者明確決定；本次使用者已選擇不備份。
+倉庫包含重新撰寫的文字、原創 SVG/PNG、靜態網頁，以及使用者提供的三張真機照片。固件、遊戲、BAR/APK、SSH 私鑰、完整日誌和賬戶文件均未上傳。示例地址和路徑是佔位符。這裏是單臺設備的現場記錄，不承諾所有固件或舊應用均可運行。復刷會清空數據，應由設備擁有者明確決定；本次使用者已選擇不備份。
 
 默認優先使用自有密鑰認證。密碼分支記錄了歷史系統的 DES 兼容限制，僅供理解問題；請讀其限制，避免把舊 root SSH 暴露到互聯網。
 
@@ -87,3 +87,6 @@
 感謝 [BerryCore / sw7ft](https://github.com/sw7ft/BerryCore)、[BerryLife](https://bberrylife.github.io/)、[bb10root](https://github.com/bb10root)、[BerryFarm / Term49](https://github.com/BerryFarm/Term49) 及 BB10 社區的持續工作。感謝 OpenAI 的 ChatGPT 與 Codex 在資料整理、命令分析和執行協作中的幫助。工具、平臺與社區作者保有各自的貢獻；這份記錄沒有把他們的成果歸爲我們的發明。
 
 原創文檔與網頁採用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。BlackBerry 名稱屬於相應權利人，本項目爲社區記錄，與官方無隸屬關係。
+
+
+BerryBrowser CJK：[專案與相容性說明](https://github.com/EazyLee30/berrybrowser-cjk) · [最新版本](https://github.com/EazyLee30/berrybrowser-cjk/releases/latest)。加入中文顯示字型，保留原瀏覽器引擎，目前不支援中文輸入。

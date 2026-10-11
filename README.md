@@ -80,7 +80,7 @@ The journal is available in [English](https://eazylee.xyz/reberry/), [简体中�
 
 ## Privacy and scope
 
-Only newly authored text, original SVG artwork and static web files are included. No firmware, commercial apps, BAR/APK payloads, private keys, device screenshots, raw logs or account databases are published. Addresses and paths in examples are placeholders. This is evidence from one device, not a guarantee for every firmware or application. Reflashing erases data; the owner explicitly chose to proceed without backup in this session.
+Includes newly authored text, original artwork, static web files and three owner-provided device photographs. No firmware, commercial apps, BAR/APK payloads, private keys, raw logs or account databases are published. Addresses and paths in examples are placeholders. This is evidence from one device, not a guarantee for every firmware or application. Reflashing erases data; the owner explicitly chose to proceed without backup in this session.
 
 Prefer owner-controlled key authentication. The optional password branch documents a legacy DES compatibility limitation: only the first eight password bytes count, and protection is weak. Read its limitations and keep legacy root SSH off the public internet.
 
@@ -89,3 +89,6 @@ Prefer owner-controlled key authentication. The optional password branch documen
 Thank you to [BerryCore / sw7ft](https://github.com/sw7ft/BerryCore), [BerryLife](https://bberrylife.github.io/), [bb10root](https://github.com/bb10root), [BerryFarm / Term49](https://github.com/BerryFarm/Term49), Berry Much OS, Term49CX maintainers and the wider BB10 community. Thank you to OpenAI's ChatGPT and Codex for help with command analysis, troubleshooting, documentation and execution. Their work remains credited to its respective authors.
 
 Original documentation and web design: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). BlackBerry trademarks belong to their respective owners. This is an independent community record.
+
+
+BerryBrowser CJK: [project and compatibility notes](https://github.com/EazyLee30/berrybrowser-cjk) · [latest release](https://github.com/EazyLee30/berrybrowser-cjk/releases/latest). Chinese display font repack; upstream browser engine unchanged, Chinese input not supported.

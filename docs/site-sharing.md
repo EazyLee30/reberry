@@ -5,7 +5,7 @@
 分享素材：
 
 - `share-cover.svg`：由仓库原始键盘插画排版而成的封面源文件。
-- `share-cover-v1.png`：1200 × 630 的分享封面，用于 Open Graph 与 X large-image card；不含设备照片或账户信息。
+- `share-cover-v1.png`：1200 × 630 的分享封面，用于网页封面与 X large-image card；不含设备照片或账户信息。
 - `share-icon.png`：512 × 512 的莓红字标，用于方形缩略图线索。
 - `favicon-32.png`、`apple-touch-icon.png`：浏览器与 Apple 分享/主屏幕图标线索。
 
@@ -22,3 +22,8 @@
 ## 发布源
 
 `reberry` 仓库保留网站源文件 `site/`，实际 `https://eazylee.xyz/reberry/` 由 `EazyLee30/eazylee30.github.io` 的 `reberry/` 发布。修改后应同步该目录，并确认 GitHub Pages 工作流完成。不能只推送源仓库就宣称线上页面已更新。
+
+
+- `share-square-v2.png`：600 × 600 方形字标，作为 Open Graph 与 image_src 图片，适应微信方形缩略图；X 继续使用横版封面。
+- 封面使用显式等比例样式，样式表带版本参数，避免旧缓存造成移动端拉伸。
+- `photos/`：使用者提供并要求公开的三张真机照片，保留原始比例；页面不把游戏画面当作性能验证。
