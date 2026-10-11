@@ -15,7 +15,7 @@
 
 Field notes from restoring one BlackBerry Classic / Q20: a clean firmware baseline, root, independent SSH, and an Android Settings app that finally passed its loading screen. Practical observations from Windows, with a reusable agent skill and room for a future Mac chapter.
 
-[Read the journal →](https://eazylee.xyz/blackberry/) · [Windows walkthrough (Chinese)](docs/windows-field-notes.md) · [Reusable skill](skills/blackberry-bb10-recovery/SKILL.md) · [Mac handoff](docs/mac-handoff.md)
+[Read the journal →](https://eazylee.xyz/reberry/) · [Windows walkthrough (Chinese)](docs/windows-field-notes.md) · [Reusable skill](skills/blackberry-bb10-recovery/SKILL.md) · [Mac handoff](docs/mac-handoff.md)
 
 ## The path completed in this session
 
@@ -72,7 +72,7 @@ Copy `skills/blackberry-bb10-recovery` into your agent's skill directory (typica
 - [Mac contribution handoff and prompt (Chinese)](docs/mac-handoff.md)
 - [Credits and sources](docs/credits.md)
 
-The journal is available in [English](https://eazylee.xyz/blackberry/), [简体中文](https://eazylee.xyz/blackberry/zh-CN/) and [繁體中文](https://eazylee.xyz/blackberry/zh-TW/). Technical source notes retain their stated language; an agent can translate them as needed.
+The journal is available in [English](https://eazylee.xyz/reberry/), [简体中文](https://eazylee.xyz/reberry/zh-CN/) and [繁體中文](https://eazylee.xyz/reberry/zh-TW/). Technical source notes retain their stated language; an agent can translate them as needed.
 
 ## Privacy and scope
 

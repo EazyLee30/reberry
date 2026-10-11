@@ -15,7 +15,7 @@
 
 一臺 BlackBerry Classic / Q20 的恢復手記：從乾淨刷機，到 root、SSH，再到 Android 設置終於越過進度條。這裏留下 Windows 上實際做過的操作、失敗的線索與可交給下一位 agent 的經驗。
 
-[閱讀雜誌版博客 →](https://eazylee.xyz/blackberry/zh-TW/) · [完整操作記錄](docs/windows-field-notes.md) · [複用 skill](skills/blackberry-bb10-recovery/SKILL.md) · [Mac 接棒](docs/mac-handoff.md)
+[閱讀雜誌版博客 →](https://eazylee.xyz/reberry/zh-TW/) · [完整操作記錄](docs/windows-field-notes.md) · [複用 skill](skills/blackberry-bb10-recovery/SKILL.md) · [Mac 接棒](docs/mac-handoff.md)
 
 ## 本次走通的路徑
 
@@ -58,7 +58,7 @@
 完成後記錄實際結果與未解決問題；如果是 Mac，只記錄真正執行過的 Mac 操作，不照搬 Windows 成功結論。
 ```
 
-博客語言：[English](https://eazylee.xyz/blackberry/) · [簡體中文](https://eazylee.xyz/blackberry/zh-TW/) · [繁體中文](https://eazylee.xyz/blackberry/zh-TW/)。
+博客語言：[English](https://eazylee.xyz/reberry/) · [簡體中文](https://eazylee.xyz/reberry/zh-TW/) · [繁體中文](https://eazylee.xyz/reberry/zh-TW/)。
 
 把倉庫中的 `skills/blackberry-bb10-recovery` 文件夾複製到你所用 agent 的技能目錄即可；Codex 通常使用 `~/.codex/skills/`。也可以直接讓 agent 閱讀文件，無須安裝。
 
