@@ -157,6 +157,6 @@ df -h /var/rootdata
 
 ## 留给下一位操作者
 
-最有价值的是把证据链留下：刷写完成 → root 更新完成 → 端口监听 → 认证成功 → Android 系统服务正常 → 安装器成功 → 应用可用。它们是不同的状态。下一篇 Mac 记录会由实际执行者补上；目前没有将未知的 Mac 步骤冒充为成功经验。
+最有价值的是把证据链留下：刷写完成 → root 更新完成 → 端口监听 → 认证成功 → Android 系统服务正常 → 安装器成功 → 应用可用。它们是不同的状态。现已补充 [Mac 实测记录](mac-field-notes.md)，覆盖 SSH、BerryCore 与 Term49；Mac 构建/刷写以及开机 hook 重启回归仍未完成。
 
 [资料与致谢](credits.md) · [复用 skill](../skills/blackberry-bb10-recovery/SKILL.md)

@@ -3,7 +3,7 @@
 <p align="center">
 <img alt="Device" src="https://img.shields.io/badge/BlackBerry-Classic_%2F_Q20-252522?style=flat-square">
 <img alt="System" src="https://img.shields.io/badge/BB10-10.3.3.3216-75404b?style=flat-square">
-<img alt="Host" src="https://img.shields.io/badge/Field_notes-Windows-b39360?style=flat-square">
+<img alt="Host" src="https://img.shields.io/badge/Field_notes-Windows_%2B_macOS-b39360?style=flat-square">
 <img alt="Skill" src="https://img.shields.io/badge/Agent_skill-included-494e42?style=flat-square">
 </p>
 
@@ -13,9 +13,9 @@
 
 **The keyboard remembers. Give the system a voice again.**
 
-Field notes from restoring one BlackBerry Classic / Q20: a clean firmware baseline, root, independent SSH, and an Android Settings app that finally passed its loading screen. Practical observations from Windows, with a reusable agent skill and room for a future Mac chapter.
+Field notes from restoring one BlackBerry Classic / Q20: a clean firmware baseline, root, independent SSH, and an Android Settings app that finally passed its loading screen. Practical observations from Windows, with a reusable agent skill and actual Mac SSH and BerryCore observations.
 
-[Read the journal →](https://eazylee.xyz/reberry/) · [Windows walkthrough (Chinese)](docs/windows-field-notes.md) · [Reusable skill](skills/blackberry-bb10-recovery/SKILL.md) · [Mac handoff](docs/mac-handoff.md)
+[Read the journal →](https://eazylee.xyz/reberry/) · [Windows walkthrough (Chinese)](docs/windows-field-notes.md) · [Reusable skill](skills/blackberry-bb10-recovery/SKILL.md) · [Mac field notes (Chinese)](docs/mac-field-notes.md) · [Mac handoff](docs/mac-handoff.md)
 
 ## The path completed in this session
 

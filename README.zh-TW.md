@@ -3,7 +3,7 @@
 <p align="center">
 <img alt="Device" src="https://img.shields.io/badge/BlackBerry-Classic_%2F_Q20-252522?style=flat-square">
 <img alt="System" src="https://img.shields.io/badge/BB10-10.3.3.3216-75404b?style=flat-square">
-<img alt="Host" src="https://img.shields.io/badge/Field_notes-Windows-b39360?style=flat-square">
+<img alt="Host" src="https://img.shields.io/badge/Field_notes-Windows_%2B_macOS-b39360?style=flat-square">
 <img alt="Skill" src="https://img.shields.io/badge/Agent_skill-included-494e42?style=flat-square">
 </p>
 
@@ -13,9 +13,9 @@
 
 **鍵盤還記得。我們讓系統重新回應。**
 
-一臺 BlackBerry Classic / Q20 的恢復手記：從乾淨刷機，到 root、SSH，再到 Android 設置終於越過進度條。這裏留下 Windows 上實際做過的操作、失敗的線索與可交給下一位 agent 的經驗。
+一臺 BlackBerry Classic / Q20 的恢復手記：從乾淨刷機，到 root、SSH，再到 Android 設置終於越過進度條。這裏留下 Windows 與 Mac 上實際做過的操作、失敗的線索與可交給下一位 agent 的經驗。
 
-[閱讀雜誌版博客 →](https://eazylee.xyz/reberry/zh-TW/) · [完整操作記錄](docs/windows-field-notes.md) · [複用 skill](skills/blackberry-bb10-recovery/SKILL.md) · [Mac 接棒](docs/mac-handoff.md)
+[閱讀雜誌版博客 →](https://eazylee.xyz/reberry/zh-TW/) · [完整操作記錄](docs/windows-field-notes.md) · [複用 skill](skills/blackberry-bb10-recovery/SKILL.md) · [Mac 實測：SSH、BerryCore、Term49](docs/mac-field-notes.md) · [Mac 接棒](docs/mac-handoff.md)
 
 ## 本次走通的路徑
 
@@ -64,6 +64,9 @@
 
 ## 閱讀順序
 
+- [Mac：SSH、BerryCore、Term49 實測](docs/mac-field-notes.md)
+- [分享预览与响应式布局](docs/site-sharing.md)
+
 - [Windows 實戰：刷寫、SSH、Runtime、PPS](docs/windows-field-notes.md)
 - [密碼 SSH 的舊系統兼容分支](skills/blackberry-bb10-recovery/references/password-ssh.md)
 - [Mac 後續貢獻說明與複製 prompt](docs/mac-handoff.md)
@@ -71,7 +74,7 @@
 
 ## 隱私與邊界
 
-倉庫僅包含重新撰寫的文字、原創 SVG 和靜態網頁。固件、遊戲、BAR/APK、SSH 私鑰、設備截圖、完整日誌和賬戶文件均未上傳。示例地址和路徑是佔位符。這裏是單臺設備的現場記錄，不承諾所有固件或舊應用均可運行。復刷會清空數據，應由設備擁有者明確決定；本次使用者已選擇不備份。
+倉庫僅包含重新撰寫的文字、原創 SVG/PNG 和靜態網頁。固件、遊戲、BAR/APK、SSH 私鑰、設備截圖、完整日誌和賬戶文件均未上傳。示例地址和路徑是佔位符。這裏是單臺設備的現場記錄，不承諾所有固件或舊應用均可運行。復刷會清空數據，應由設備擁有者明確決定；本次使用者已選擇不備份。
 
 默認優先使用自有密鑰認證。密碼分支記錄了歷史系統的 DES 兼容限制，僅供理解問題；請讀其限制，避免把舊 root SSH 暴露到互聯網。
 

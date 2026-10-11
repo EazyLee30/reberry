@@ -10,3 +10,7 @@ id_ed25519*
 .env*
 private/
 device-dumps/
+
+# Local browser QA artifacts
+.playwright-cli/
+output/playwright/
