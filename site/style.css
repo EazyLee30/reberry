@@ -15,3 +15,5 @@ aside>.eyebrow{display:block;margin-bottom:10px}
 
 /* Official GitHub mark, kept black and at its original proportions. */
 a .github-icon{display:inline-block;width:1em;height:auto;max-width:none;vertical-align:-.12em;margin:0 .35em 0 0;aspect-ratio:98 / 96;object-fit:contain}.wordmark .github-icon{width:18px;vertical-align:0;margin-right:8px}.github-link{overflow-wrap:anywhere}aside a.github-link{min-height:44px}footer .github-icon{width:14px}
+
+.masthead .home-link{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:44px;padding:6px 10px;border:1px solid transparent;border-radius:6px;font:12px/1.4 Arial,sans-serif;letter-spacing:.3px;text-decoration:none;white-space:nowrap}.home-link .home-icon{display:block;flex:none;width:18px;height:18px}.home-link:hover{background:#75404b0a;border-color:var(--brass)}.home-link:active{background:#75404b16}
